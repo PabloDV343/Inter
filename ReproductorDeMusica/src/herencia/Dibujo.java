@@ -25,10 +25,11 @@ public class Dibujo extends JApplet {
         plumon.fillRect(200, 100, 60, 100);
         
         plumon.setColor(Color.WHITE);
-        plumon.setFont(new Font("Arial", Font.BOLD, 12));
+        plumon.setFont(new Font("Arial", Font.ITALIC, 12));
         plumon.drawString("Gual*Mart", 200, 150);
         
         for(int i = 1, x = 10; i <= 40; i++, x+=5){
+            System.out.println(x);
 //            plumon.setColor(Color.YELLOW);
 //            plumon.fillRect(x, 10, 45, 75);
 //            plumon.setColor(Color.WHITE);
@@ -53,6 +54,18 @@ public class Dibujo extends JApplet {
             
             plumon.setColor(Color.BLUE);
             plumon.fillRect(200, 100, 60, 100);
+            
+            plumon.setColor(Color.WHITE);
+            plumon.setFont(new Font("Arial", Font.ITALIC, 12));
+            plumon.drawString("Gual*Mart", 200, 150);
+            
+            try{
+                Thread.sleep(190);
+            }catch(Exception ex){
+                System.err.println(ex.getMessage());
+            }
+            plumon.setColor(Color.WHITE);
+            plumon.fillRect( 209, y-1, 47, 91-y);
         }
     }
 }
