@@ -1,0 +1,4 @@
+Accion: 2012. Actor3, frontline. Actor1, xxx. Actor2
+Comedy: 300. Actor4, HarryPotter. Actor3
+Cartoons: Badboys. Actor3, Homefront. Actor5
+Horror: Crepusculo. Actor7, Matilda. Actor6
